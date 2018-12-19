@@ -1,0 +1,281 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="format-detection" content="telephone=no">
+<title>Gibson-Plumbing</title>
+
+<!-- SET: FAVICON -->
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.jpg">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<!-- END: FAVICON -->
+
+<!-- SET: STYLESHEET -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<!-- END: STYLESHEET -->
+
+<!-- SET: SCRIPTS -->
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    
+    
+    <script>
+		$(document).ready(function() {
+			
+			
+			$(".head_nav ul li ul").parent().prepend('<span></span>');
+			$(".head_nav ul li span").click(function() {
+			$(this).parent().toggleClass('active');
+			$(this).parent().find('ul').slideToggle();
+			$(this).parent().find('ul ul').hide();
+			
+			});
+			
+            // initialization here
+			$('.bxslider').bxSlider({
+			  auto: true,
+			  autoControls: true
+			}); 
+			
+			$('footer ul li a').clone().appendTo('.clone1')
+					
+		$('.menu_icon').click(function() {$('.head_nav').slideToggle();});
+		
+		  $('.slider1').bxSlider({
+    minSlides: 3,
+    maxSlides: 5,
+  });
+		
+		   });
+		
+	</script>
+<!-- END: SCRIPTS -->
+
+<!--[if lt IE 9]>
+<script type="text/javascript">
+  document.createElement("header");
+  document.createElement("nav");
+  document.createElement("section");
+  document.createElement("article");
+  document.createElement("aside");
+  document.createElement("footer");
+</script>
+<![endif]-->
+</head>
+
+<body>
+
+<!-- wrapper starts -->
+<div class="wrapper">
+	
+        	
+            <!-- Header Starts -->
+            
+            <header>
+                <div class="header_head">
+                	<div class="head_container">
+                    	<div class="head_main">
+                        	<div class="header_top_inn">
+                        	<section class="head_right">
+                                <span>210-661-4000</span>
+                                <p>
+                                    5511 Dietrich Road<br>
+                                    San Antonio, Texas 78219
+                                </p>
+                                <h4>Serving San Antonio and surrounding areas since 1954</h4>
+                            </section>
+                            <div class="logo">
+                                <a href="index.html" ><img src="images/logo.png" width="409" height="107" alt="gibson_plumbing"></a>
+                               <small> <a href="index.html"><img src="images/person.png" width="191" height="246" alt="person"></a></small>
+                            </div>
+                            <div class="clear"></div>
+                            </div>
+                        </div>
+                        	<a class="menu_icon">Menu</a>
+                            <div class="head_nav">
+                            	<ul>
+                               		 <li  class="home"><a href="index.html" >Home</a></li>
+                                	<li class="builders"><a href="home_builders.html">Home Builders</a></li>
+                                    <li class="multi"><a href="multifamily_construction.html">Multi-Family Construction</a></li>
+                                    <li class="about"><a href="about_us.html">About Us</a></li>
+                                    <li class="careers"><a href="careers.html">Careers</a></li>
+                                    <li class="contact"><a href="contact_us.html" class="no_border">Contact Us</a></li>
+                                </ul>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="clear"></div>
+                    </div>
+                </div>
+            </header>
+            <!-- Header ends -->
+            
+             
+            
+            <!-- maincontent Starts -->
+            <div class="main_content">
+            	<div class="container">
+                	<div class="interior">
+                        <div class="interior_left eq">
+                            <ul>
+                                <li><a href="#">Schedule Phase Work</a></li>
+                            </ul>
+                                <div class="clear"></div>
+                        </div>
+                        <div class="interior_right eq">
+                          <div style="padding:0 0 15px" class="inner_slider">
+                            <div class="freeestimate"><img src="images/since-1954.jpg" width="100%" alt=""/><a href="schedule_phasework.html">
+                <span>
+                Schedule Phase Work or 
+                <br>Warranty Service
+                </span>
+              </a>
+            </div><h3 style="padding:0 0 15px">Home Builders Subcontracting</h3>
+                            <p class="regular">We have been working with home builders for over 60 years.<br>
+                            To schedule phase work, <a style="color:#b42c33; text-decoration:underline" href="schedule_phasework.html">submit a request to schedule</a>.</p>
+                          </div>
+                            <div class="construction">
+                                <h3>Plumbing for Home Builders</h3>
+                                <p style="margin:0 0 14px 4px; font-weight:bold">Benefits of using Gibson Plumbing include:</p>
+                              <ul class="client100 regular">
+                                  <li>On-line scheduling to save you time and money</li>
+                                  <li>Nationally recognized quality assurance program</li>
+                                  <li>Trash program – we haul all of our trash off your jobsite</li>
+                                  <li>Warranty – We provide a licensed plumber 24/7 to handle warranty issues</li>
+                                  <li>Warehouse – We have a 40,000 square foot stocked warehouse. Enabling us to quickly fill orders or increased demand.</li>
+                                  <li>Pre-fabrication – We pre-fab our shower risers to eliminate behind the wall leaks.</li>
+                                </ul>
+                                <div class="clear"></div>
+                                <!--<div class="inner_slider">
+                                <ul class="slider1"> 
+                                    <li><img src="images/mf-slide1.jpg" width="291" height="287" alt="slide1-image"></li>
+                                    <li>
+                                   		 <img src="images/mf-slide2.jpg" width="292" height="287" alt="slide2-image">
+                                    </li>
+                                                                        <li>
+                                   		 <img src="images/mf-slide5.jpg" width="292" height="287" alt="slide2-image">
+                                    </li>
+                                    <li><img src="images/mf-slide3.jpg" width="291" height="287" alt="slide3-image"></li>
+                                    <li><img src="images/mf-slide4.jpg" width="291" height="287" alt="slide1-image"></li>
+
+                                </ul>
+                                    <div class="clear"></div>
+                            </div>-->
+    							<h4>Warranty Service</h4>
+                                 <p style="margin:0 0 14px 4px;">Gibson Plumbing Company warranties our labor for up to 2 years.<br>
+                                 <a style="color:#b42c33; text-decoration:underline" href="schedule_phasework.html">Schedule phase of warranty service work>></a></p>
+                                 <hr/>
+                              <p style="margin:0 0 14px 4px; font-weight:bold">Gibson Plumbing Company is proud to work with the following home builders:</p>
+
+                              <ul class="client">
+                                <li><a href="http://www.homesbybellavista.com/" target="_blank">Bella Vista Homes</a></li>
+                                            <li><a href="http://chesmar.com/" target="_blank">Chesmar Homes</a></li>
+                                            <li><a href="http://www.davidweekleyhomes.com/" target="_blank">David Weekly Homes</a></li>
+                                            <li><a href="http://www.drhorton.com/" target="_blank">DR Horton</a></li>
+                                            <li><a href="http://www.gehanhomes.com/sanantoniomarket/?SiteMarketId=4%20hindmarsh-homes.com" target="_blank">Gehan Homes</a></li>
+                              </ul>
+                                        <ul class="client33">
+                                                                                      <li><a href="http://www.imaginehomessa.com/" target="_blank">Imagine Homes</a></li>
+
+<li><a href="http://gibsonplumbing.com/home_builders.html#" target="_blank">KB Home</a></li>
+                                          <li><a href="http://www.lennar.com/New-Homes/Texas/San-Antonio" target="_blank">Lennar Homes</a></li>
+                                          <li><a href="http://www.mcmillinhomes.com/" target="_blank">McMillin Homes</a></li>
+                                          <li><a href="http://www.mihomes.com/Find-Your-New-Home/San-Antonio-Homes" target="_blank">MI Homes</a></li>
+
+                                        </ul>
+                                        <ul class="client client27">
+                                                                                    <li><a href="http://www.newleafhomes.com/" target="_blank">New Leaf Homes</a></li>
+<li><a href="http://perryhomes.com/" target="_blank">Perry Homes</a></li>
+                                          <li><a href="http://www.rauschcolemanhomes.com/" target="_blank">Rausch Coleman</a></li>
+                                          <li><a href="http://www.rialtotexas.com/" target="_blank">Rialto Homes</a></li>
+                                          <li><a href="http://www.woodside-homes.com/Metro-San-Antonio-Texas-8.cfm" target="_blank">Woodside Homes</a></li>
+                                        </ul>
+                                <div class="clear"></div><br/>
+                                <hr/>
+                              <h4>Work Performed by Licensed Technicians</h4>
+                              <p style="margin:0 0 14px 4px">Each completed phase is walked by one of our Quality Assurance Professionals. Our workforce consists of over 200 licensed plumbers and apprentices, including 12 Master Plumbers.
+
+To schedule phase work, <a style="color:#b42c33; text-decoration:underline" href="schedule_phasework.html">submit a request to schedule</a>.</p>
+                              
+                              <p>&nbsp;</p>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- aincontent ends -->
+            
+            <!-- footer starts -->
+            <footer>
+            	<div class="container">
+                	<ul>
+                    	<li><small>MPL#39426</small></li>
+                        <li class="last"><a href="https://www.facebook.com/GibsonPlumbingCompany/" target="_blank"><img src="images/facebook_img.jpg" width="116" height="44" alt="facebook_img"></a><a href="#"></a></li>
+                    </ul>
+                    <p>Copyright 2015 <a href="#">Gibson Plumbing</a>. All rights Reserved Wordwide</p><br>
+					<div class="clear"></div>
+                </div>
+            </footer>
+            <!-- footer ends -->
+            
+    
+</div>
+<!-- wrapper ends -->
+
+<script>
+equalheight = function(container){
+
+var currentTallest = 0,
+     currentRowStart = 0,
+     rowDivs = new Array(),
+     $el,
+     topPosition = 0;
+ $(container).each(function() {
+
+   $el = $(this);
+   $($el).height('auto')
+   topPostion = $el.position().top;
+
+   if (currentRowStart != topPostion) {
+     for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+       rowDivs[currentDiv].height(currentTallest);
+     }
+     rowDivs.length = 0; // empty the array
+     currentRowStart = topPostion;
+     currentTallest = $el.height();
+     rowDivs.push($el);
+   } else {
+     rowDivs.push($el);
+     currentTallest = (currentTallest < $el.height()) ? ($el.height()) : (currentTallest);
+  }
+   for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+     rowDivs[currentDiv].height(currentTallest);
+   }
+ });
+}
+
+$(window).load(function() {
+  equalheight('.eq');
+});
+
+
+$(window).resize(function(){
+  equalheight('.eq');
+});
+</script>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+

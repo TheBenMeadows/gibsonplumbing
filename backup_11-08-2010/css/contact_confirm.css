@@ -1,0 +1,124 @@
+.confirm_body
+
+	{
+
+		position:relative;
+
+		float:left;
+
+		width:775px;
+
+		height:400px;
+
+	}
+
+.confirm_left_side_space
+
+	{
+
+		position:relative;
+
+		float:left;
+
+		width:200px;
+
+		height:400px;
+
+	}
+
+.confirm_data_block
+
+	{
+
+		position:relative;
+
+		float:left;
+
+		width:375px;
+
+		height:400px;
+
+	}
+
+.confirm_title_row
+
+	{
+
+		position:relative;
+
+		float:left;
+
+		width:375px;
+
+		font-family:Arial, Helvetica, sans-serif;
+
+		font-size:16px;
+
+		font-weight:bold;
+
+		color:#000066;
+
+	}
+
+.confirm_title_text_row
+
+	{
+
+		position:relative;
+
+		float:left;
+
+		width:375px;
+
+		font-family:Arial, Helvetica, sans-serif;
+
+		font-size:14px;
+
+		font-weight:bold;
+
+		color:#000066;
+
+	}
+
+.confirm_subject_row
+
+	{
+
+		position:relative;
+
+		float:left;
+
+		width:375px;
+
+		font-family:Arial, Helvetica, sans-serif;
+
+		font-size:14px;
+
+		font-weight:bold;
+
+		color:#000066;
+
+	}
+
+.confirm_message_block
+
+	{
+
+		position:relative;
+
+		float:left;
+
+		width:375px;
+
+		font-family:Arial, Helvetica, sans-serif;
+
+		font-size:14px;
+
+		font-weight:bold;
+
+		color:#000066;
+
+		text-align:left;
+
+	}
+

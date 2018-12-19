@@ -1,0 +1,48 @@
+.column_container
+
+	{
+
+		width:385px;
+
+		position: relative;
+
+		float: left;
+
+	}
+
+.column_text
+
+	{
+
+		width:385px;
+
+		position: relative;
+
+		float: left;
+
+	}
+
+.column_spacer
+
+	{
+
+	width:5px;
+
+	position: relative;
+
+	float: left;
+
+	background-color: #B51133;
+
+	height:120px
+
+	}
+
+.text_row_container
+
+	{
+
+		width:775px;
+
+	}
+

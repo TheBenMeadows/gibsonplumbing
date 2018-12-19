@@ -1,0 +1,197 @@
+
+
+@media only screen and (max-width:1184px){
+	
+.container							{ width:98%;}
+.head_container						{ width:100%;}
+.head_main							{ margin: 0 0 14px 137px;}
+.logo								{ width:300px;}
+.logo small							{    top: -45px;}
+.logo a img							{ width:100%; height:auto;}
+.head_nav ul li a					{ font-size:15px;}
+.head_right							{ margin:3px 15px 0 0;}	
+.serving_sec h4						{ font-size:25px;}
+.work_sec img						{ width:100%; height:auto;}
+.construction_main img 				{ width:100%; height:auto;}
+.construction_main h3				{ font-size:18px;}
+.work_sec h3						{ font-size:18px;}
+.construction_sub ul.apartments		{ margin:0 12px 0 0;}
+
+
+/* ---- interior HERE -------------*/
+
+.interior_left						{ width:20%;}
+.interior_right						{ width:76%;}
+.interior_right1						{ width:76%;}
+.construction ul.client				{ width:36%;}
+.construction ul.client_sub			{ width:28%;}
+.map                       {width:75%}
+.address                   {width:22%}
+
+}
+@media only screen and (max-width:1024px){
+.construction_sub					{ margin:16px 0 9px 20px;}
+
+
+/* ---- interior HERE -------------*/
+.interior_left ul li a				{ font-size: 14px;}
+.interior							{ margin:0;}
+.interior_left						{ width: 24%;}
+.interior_right						{ width: 73.5%;  padding: 0 0 0 2%;}
+.interior_right1				{width:100%}
+.inner_slider h3					{ font-size:25px;}
+.inner_slider p                     {font-size:14px}
+.construction h3					{ font-size:20px;}
+.construction p						{ font-size:14px;}
+.construction ul.client li a		{ font-size:13px;}
+.construction ul.client33 li a		{ font-size:13px;}
+.construction ul.client27 li a		{ font-size:13px;}
+.map                       {font-size:13px}
+.address                   {font-size:13px}
+.construction ul.regular            {font-size:13px}
+.jones ul li p						{ font-size:20px;}
+footer p							{ font-size:14px;}
+}
+@media only screen and (max-width:991px){
+.freeestimate						{display:none}
+.hidemobile							{display:none}
+.construction ul.client100          {width:100%}
+.address                   {width:100%;}
+.interior_right1				{width:95%;}
+.map                       {width:100%}
+
+.logo								{ width:200px;}
+.head_right	span					{ font-size:17px; text-align:right;}
+.head_right	p						{ font-size:13px; text-align:right;}
+.head_right	h4						{ font-size:14px;}
+.head_nav							{ margin:0;}
+.head_nav ul li a					{ font-size:12px;}
+
+	
+.serving_sec h4						{font-size: 19px; line-height:30px;}
+.serving_sec p						{font-size:14px; line-height:27px;}	
+.construction_main h3				{font-size:14px;}
+.construction_sub					{margin: 16px 0 9px 0;}
+.construction_sub ul.apartments		{margin: 0 5px 0 0;}
+.construction_sub ul.apartments li a{font-size: 13px;}
+.construction_sub ul.living li a    { font-size:13px;}
+.construction_main p				{font-size: 12px;}
+.work_sec h3						{font-size: 14px;}
+.work_sec ul li a					{font-size: 13px;}
+
+
+/* ---- interior HERE -------------*/
+
+}
+@media only screen and (max-width:767px){
+.address							{margin-top:10px}
+.freeestimate						{display:none}
+.head_main							{ margin:0 0px 28px 93px;}	
+.head_right	p						{ display:none;}	
+.head_right	h4						{ display:none;}
+header								{ border-top:none;}
+.head_right	span					{ font-size:30px;}	
+.header_head						{ margin:8px 0 11px 0;}
+.logo								{  margin: 60px 0 0 30px;}
+.logo small							{ width:125px; left:-129px; top:inherit;     bottom:-84px;}
+.logo small img						{ width:100%; height:auto;}
+.head_nav							{ display:none; position:absolute; z-index:999999;  top:39px; left:0px;  width:100%; background:#333333;}
+.header_head a.menu_icon			{ display:block; position: absolute; top:7px; left:19px; z-index:999999;}
+
+.head_nav ul li ul					{ width:100%; background:#444444;}
+.head_nav ul li ul li a				{ background:none !important; padding:0 !important; margin:0 0 0 25%; text-align:left;}
+.head_nav ul li:hover ul			{ display:none;}
+.head_nav ul li ul					{ position:static;}
+.head_nav ul						{ display:block; float:none;}
+.head_nav ul li						{ display:block; float:none;     /*padding: 8px 0 8px 15px;*/ padding:0; border-bottom:1px solid #000; position:relative;}
+.head_nav ul li a					{ border-right:none; font-size:20px; color:#ffffff; margin:0px 0 0px 15px;}
+.head_nav ul li.home				{ display:block;}
+.head_nav ul li:hover				{ background:#ed7930;}
+.head_nav ul li.home a				{ display:block; background:url(../images/home_bg.png) no-repeat left center; padding: 0px 0 0px 47px;   line-height: 43px;}
+.head_nav ul li.builders a			{ display:block; background:url(../images/home_builders_bg.png) no-repeat left center; padding: 0px 0 0px 47px;     line-height: 43px;}
+.head_nav ul li.multi a				{ display:block; background:url(../images/multi-family_bg.png) no-repeat left center; padding: 0px 0 0px 47px;    line-height: 43px;}
+.head_nav ul li.residential a		{ display:block; background:url(../images/residential_bg.png) no-repeat left center; padding: 0px 0 0px 47px;    line-height: 43px;}
+.head_nav ul li.about a				{ display:block; background:url(../images/serving_bg.png) no-repeat left center; padding: 0px 0 0px 47px;    line-height: 43px;}
+.head_nav ul li.careers a			{ display:block; background:url(../images/careers_img.png) no-repeat left center; padding: 0px 0 0px 47px;    line-height: 43px;}
+.head_nav ul li.contact a			{ display:block; background:url(../images/contact_us_bg.png) no-repeat left center; padding: 0px 0 0px 47px;    line-height: 43px;}
+.head_nav ul li span				{ width:30px; height:43px; background:url(../images/plus-icon.png) no-repeat 10px 20px #cd611c; position:absolute; right:0; top:0;}
+.head_nav ul li.active span			{background:url(../images/minus_icon.png) no-repeat center center #cd611c;}
+.head_nav ul li ul li:hover a, .head_nav ul li ul li.active a{ color:#ffffff;}
+.serving_main						{ margin:0;}
+.serving_sec						{ float:none; display:block; width:100%; margin:0 0 20px; box-sizing:border-box;}
+.serving_sec h4						{font-size:25px; line-height:30px; text-align:center; display:block;}
+.serving_sec p						{ font-size:15px;}
+.construction_main					{ float:none; display:block; width:95%; margin:0 auto 20px; box-sizing:border-box;}
+.construction_main h3				{ font-size:25px;}
+.work_sec							{ float:none; display:block; width:95%; margin:0 auto; box-sizing:border-box;}
+.work_sec h3						{ font-size:25px;}
+.work_sec img						{ margin:0 auto 20px;}
+.construction_sub					{ display: block;    margin: 16px auto 9px;    width: 300px;}	
+.construction_sub ul.apartments	{margin: 0 26px 0 0;}	
+.construction_sub ul.apartments li a{ font-size: 15px;}
+.construction_sub ul.living li a	{ font-size:15px;}
+.construction_main p				{ font-size:15px;  margin:0 0 16px 0px;}
+.work_sec ul						{margin: 0 0px 9px 0;}	
+.work_sec .construction_sub			{ width:240px;}
+.work_sec ul li a					{ font-size:15px;}
+.head_right							{   display: block;    float: none;    margin: 3px 74px 0 0;    position: absolute;    right: 20px;    top: 5px; margin: 3px 0 0 0;}
+.clone1								{ display:block;  margin:0 0 10px;}
+.clone1	footer ul li a 				{ display:block !important;}
+.clone1 a 							{ width:116px; margin:0 auto; display:block;}
+.work_sec a.info					{ margin:0 auto 30px;}
+footer								{ padding:5px 0;}
+footer ul li a 						{ display:none;}
+footer ul							{ display:block; float:none;}
+footer ul li						{ display:block; float:none;}
+footer ul li small					{ display:block; text-align:center;}
+footer p							{ float:none; display:block; text-align:center; font-size:12px;}
+/* ---- interior HERE -------------*/	
+.interior_left						{ float:none; display:block; width:100%;}		
+.interior_left ul					{ padding:20px 0 0px;}
+.interior_left ul li a				{ text-align:center;}
+.interior_right						{ float:none; display:block; width:100%; padding:0;}
+.interior_right1						{ float:none; display:block; width:100%; padding:0;}
+
+
+}
+
+@media only screen and (max-width:600px){
+.head_right	span					{ font-size:20px;}	
+.head_nav ul li a					{ font-size:15px;}
+.head_nav ul li ul li a				{ font-size:15px;}
+.freeestimate						{display:none}
+
+/* ---- interior HERE -------------*/
+.construction ul.client				{ width:100%; float:none; display:block; text-align:left; margin:0 0 0px 0;}
+.construction ul.client_sub			{ margin:0;}
+.construction ul.client li			{ margin:0 0 10px;}
+.map                       {width:100%}
+.address                   {width:100%}
+.construction ul.client33				{ width:100%; float:none; display:block; text-align:left; margin:0 0 0px 0;}
+.construction ul.client33 li			{ margin:0 0 10px;}
+
+.construction ul.client27				{ width:100%; float:none; display:block; text-align:left; margin:0 0 0px 0;}
+.construction ul.client27 li			{ margin:0 0 10px;}
+
+.jones ul li p						{ font-size:16px; line-height:27px; background-position:6px top; padding: 8px 0 0 40px;}
+}
+@media only screen and (max-width:479px){
+.logo								{width:185px;}
+.serving_sec h4						{ font-size:16px; margin:0 0 5px 0;}
+.construction_main h3				{ font-size:16px;}
+.work_sec h3						{ font-size:16px;}
+.head_right	span					{ font-size:20px;}	
+footer p							{ font-size:10px;}
+
+
+/* ---- interior HERE -------------*/
+}
+@media only screen and (max-width:320px){
+.hidemobile							{display:none}
+
+.logo								{  margin: 80px 0 0 30px;}
+/* ---- interior HERE -------------*/
+}
+@media only screen and (min-width:768px){
+.head_nav					{ display:block !important;}	
+}

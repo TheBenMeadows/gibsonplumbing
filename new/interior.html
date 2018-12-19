@@ -1,0 +1,385 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="format-detection" content="telephone=no">
+<title>Gibson-Plumbing</title>
+
+<!-- SET: FAVICON -->
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.jpg">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<!-- END: FAVICON -->
+
+<!-- SET: STYLESHEET -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<!-- END: STYLESHEET -->
+
+<!-- SET: SCRIPTS -->
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    
+    
+    <script>
+		$(document).ready(function() {
+			
+			
+			$(".head_nav ul li ul").parent().prepend('<span></span>');
+			$(".head_nav ul li span").click(function() {
+			$(this).parent().toggleClass('active');
+			$(this).parent().find('ul').slideToggle();
+			$(this).parent().find('ul ul').hide();
+			
+			});
+			
+            // initialization here
+			$('.bxslider').bxSlider({
+			  auto: true,
+			  autoControls: true
+			}); 
+			
+			$('footer ul li a').clone().appendTo('.clone1')
+					
+		$('.menu_icon').click(function() {$('.head_nav').slideToggle();});
+		
+		  $('.slider1').bxSlider({
+    minSlides: 3,
+    maxSlides: 5,
+  });
+		
+		   });
+		
+	</script>
+<!-- END: SCRIPTS -->
+
+<!--[if lt IE 9]>
+<script type="text/javascript">
+  document.createElement("header");
+  document.createElement("nav");
+  document.createElement("section");
+  document.createElement("article");
+  document.createElement("aside");
+  document.createElement("footer");
+</script>
+<![endif]-->
+</head>
+
+<body>
+
+<!-- wrapper starts -->
+<div class="wrapper">
+	
+        	
+            <!-- Header Starts -->
+            
+            <header>
+                <div class="header_head">
+                	<div class="head_container">
+                    	<div class="head_main">
+                        	<div class="header_top_inn">
+                        	<section class="head_right">
+                                <span>210-661-4000</span>
+                                <p>
+                                    5511 Dietrich Road<br>
+                                    San Antonio, Texas 78219
+                                </p>
+                                <h4>Serving San Antonio and surrounding areas since 1954</h4>
+                            </section>
+                            <div class="logo">
+                                <a href="#" ><img src="images/logo.png" width="409" height="107" alt="gibson_plumbing"></a>
+                               <small> <img src="images/person.png" width="191" height="246" alt="person"></small>
+                            </div>
+                            <div class="clear"></div>
+                            </div>
+                        </div>
+                        	<a class="menu_icon">Menu</a>
+                            <div class="head_nav">
+                            	<ul>
+                               		 <li  class="home"><a href="#" >Home</a></li>
+                                	<li class="builders"><a href="#">Home Builders</a></li>
+                                    <li class="multi"><a href="#">Multi-Family Construction</a></li>
+                                    <li class="residential">
+                                    <a href="#">Residential Plumbing Services</a>
+                                    	<ul>
+                                        	<li><a href="#">Services</a></li>
+                                            <li><a href="#">Water Heaters</a></li>
+                                            <li class="active"><a href="#" >Water Softeners</a></li>
+                                            <li><a href="#">ADA Tubs & Showers</a></li>
+                                            <li><a href="#">Warrant Service</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="about"><a href="#">About Us</a></li>
+                                    <li class="careers"><a href="#">Careers</a></li>
+                                    <li class="contact"><a href="#" class="no_border">Contact Us</a></li>
+                                </ul>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="clear"></div>
+                    </div>
+                </div>
+            </header>
+            <!-- Header ends -->
+            
+             
+            
+            <!-- maincontent Starts -->
+            <div class="main_content">
+            	<div class="container">
+                	<div class="interior">
+                        <div class="interior_left eq">
+                            <ul>
+                                <li><a href="#">Water Heaters</a></li>
+                                <li><a href="#">Water Softeners</a></li>
+                                <li><a href="#">ADA Tubs & Showers</a></li>
+                                <li><a href="#">Warrant Service</a></li>
+                            </ul>
+                                <div class="clear"></div>
+                        </div>
+                        <div class="interior_right eq">
+                            <div class="inner_slider">
+                                <h3>Multifamily Construction</h3>
+                                <ul class="slider1"> 
+                                    <li><img src="images/mf-slide1.jpg" width="291" height="287" alt="slide1-image"></li>
+                                    <li>
+                                   		 <img src="images/mf-slide2.jpg" width="292" height="287" alt="slide2-image">
+                                    </li>
+                                                                        <li>
+                                   		 <img src="images/mf-slide5.jpg" width="292" height="287" alt="slide2-image">
+                                    </li>
+                                    <li><img src="images/mf-slide3.jpg" width="291" height="287" alt="slide3-image"></li>
+                                    <li><img src="images/mf-slide4.jpg" width="291" height="287" alt="slide1-image"></li>
+
+                                </ul>
+                                    <div class="clear"></div>
+                            </div>
+                            <div class="construction">
+                                <h3>New Construction Plumbing</h3>
+                                <p>
+                                    We work with a variety of industries, and have experience handling multiple diverse projects at the same time. However, we specialize in
+                                    multi-family and assisted living facilities. This means we are experienced with stacked residential plumbing, and have the capacity to
+                                    staff according to fast-paced schedules. Gibson Plumbing has the financial resources to cover materials and labor needed
+                                    throughout the life of numerous projects.
+     						  </p>
+    							<h4>Current clients include:</h4>
+                                        <ul class="client">
+                                            <li><a href="#">Amicus</a></li>
+                                            <li><a href="http://www.andresconstruction.com/" target="_blank">Andres</a></li>
+                                            <li><a href="http://www.balfourbeattyus.com/" target="_blank">Balfour Beatty Construction</a></li>
+                                            <li><a href="http://www.caseydev.com/" target="_blank">Casey Development</a></li>
+                                            <li><a href="http://www.catamountinc.com/" target="_blank">Catamount Constructors</a></li>
+                                            <li><a href="http://www.carletonconstruction.com/" target="_blank">Carleton Construction</a></li>
+                                        </ul>
+                                        <ul class="client33">
+                                            <li><a href="http://conceptbuilders.com/" target="_blank">Concept Builders</a></li>
+                                            <li><a href="http://www.embreydc.com/" target="_blank">Embrey Partners</a></li>
+                                            <li><a href="http://www.flournoycompanies.com/" target="_blank">Flournoy Construction</a></li>
+                                            <li><a href="http://www.franklinconstructionlimited.com/" target="_blank">Franklin Construction</a></li>
+                                            <li><a href="http://www.iciconstructioninc.com/" target="_blank">ICI Construction</a></li>
+                                            <li><a href="http://www.jordanfosterconstruction.com/" target="_blank">Jordan Foster</a></li>
+
+                                        </ul>
+                                        <ul class="client client27">
+                                            <li><a href="http://www.langstonconstr.com/" target="_blank">Langston Construction</a></li>
+                                            <li><a href="http://www.mpccontracting.com/" target="_blank">MPC</a></li>
+                                            <li><a href="http://www.neconstruction.net/" target="_blank">NE Construction</a></li>
+                                            <li><a href="http://www.nrpgroup.com/" target="_blank">NRP Contractors, LLP</a></li>
+                                            <li><a href="http://www.rampartconstruction.net/" target="_blank">Rampart Construction</a></li>
+                                            <li><a href="http://www.spawglass.com/" target="_blank">Spaw Glass</a></li>
+                                        </ul>
+                                <div class="clear"></div><br/>
+                                <hr/>
+                              <h4>Projects:</h4>
+                                <ul class="client regular">
+                                  <li>Adante - Senior Homes</li>
+                                            <li>Aspen Heights Student Living</li>
+                                            <li>Avalon Place Apartments</li>
+                                            <li>Aviator</li>
+                                            <li>Boulevards' at San Angelo</li>
+                                            <li>Broadway Lofts</li>
+                                            <li>District at Medical</li>
+                                            <li>Eagles Den Apts - Cazzizo Springs, Cotulla, Three Rivers                                              </li>
+                                            <li>Forum at Sam Houston in Huntsville</li>
+                                            <li>Franklin Park at Sonterra</li>
+                                            <li>Hamilton Wolfe</li>
+                              </ul>
+                                        <ul class="client33 regular">
+                                          <li>Haven at Blanco</li>
+                                          <li>Haven at The Rim</li>
+                                          <li>Judson Lofts</li>
+                                          <li>Landera in Austin</li>
+                                          <li>Mary Hardin Baylor Student Housing Belton</li>
+                                          <li>Masters Ranch</li>
+                                          <li>Oak Hollow Apts in Seguin</li>
+                                          <li>Parkside</li>
+                                          <li>Peanut Factory Lofts</li>
+                                          <li>River North</li>
+                                          <li>Rivera</li>
+
+                              </ul>
+                                        <ul class="client27 regular">
+                                          <li>Southton Flats</li>
+                                          <li>Steel House Lofts</li>
+                                          <li>Tech Ridge</li>
+                                          <li>The Reserve at Towne Crossing in Longview</li>
+                                          <li>Thorpe Lane Apts</li>
+                                          <li>Villa Espada</li>
+                                          <li>Westover Hills Apts</li>
+                                          <li>Westover Oaks Apts</li>
+                                          <li>Westpointe</li>
+                              </ul>
+                                                                        <div class="clear"></div><hr/>
+                              <h4>Why Choose Gibson for Your Commercial Project?</h4>
+                              <p>Gibson Plumbing has been serving San Antonio since 1954, and we are a licensed and insured company.</p>
+                              <ul class="bullets">
+                                <li>All of our jobs are managed by our Management Staff to our high Standards.</li>
+                                <li>At Gibson Plumbing we want what our client's want - we're always working to keep your schedule and adhere to all safety regulations.</li>
+                                <li>Our workforce consists of over 200 licensed and uniformed full-time plumbers and apprentices, including 12 Master Plumbers, who must undergo ongoing, board-certified training courses. We also perform extensive background checks on all technicians (including government, DMV and drug testing).</li>
+                                <li>We have experience handling diverse projects at the same time.</li>
+                                <li>We guarantee our work quality - We stand behind manufacturers’ warranties and offer a guarantee on all materials used to install fixtures. </li>
+                              </ul>
+                              <h4><a style="color:#b42c33" href="contact_us.html">Contact Us to Discuss Your Next Project >></a>
+                              </h4>
+                              <div class="jones">
+                                   <ul class="bxslider">
+                                   		<li>
+                                        	 <p>
+                                                Magni dolores eos qui ratione volu velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam 
+                                                aliquam quaerat voluptatem. Utaenim ad minima veniam, quis nost ptatem sequi ne velit, sed quia non numquam eius modi
+                                                veniam, quis nost ptatem sequi ne velit, sed quia non numquam eius modi 
+                                                <strong></strong>
+                                  			 </p>
+                                               <span>Sam Jones</span>
+                                        </li>
+                                        <li>
+                                        	 <p>
+                                                Magni dolores eos qui ratione volu velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam 
+                                                aliquam quaerat voluptatem. Utaenim ad minima veniam, quis nost ptatem sequi ne velit, sed quia non numquam eius modi
+                                                veniam, quis nost ptatem sequi ne velit, sed quia non numquam eius modi 
+                                                <strong></strong>
+                                  			 </p>
+                                               <span>Sam Jones</span>
+                                        </li>
+                                        <li>
+                                        	 <p>
+                                                Magni dolores eos qui ratione volu velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam 
+                                                aliquam quaerat voluptatem. Utaenim ad minima veniam, quis nost ptatem sequi ne velit, sed quia non numquam eius modi
+                                                veniam, quis nost ptatem sequi ne velit, sed quia non numquam eius modi 
+                                                <strong></strong>
+                                  			 </p>
+                                               <span>Sam Jones</span>
+                                        </li>
+                                        <li>
+                                        	 <p>
+                                                Magni dolores eos qui ratione volu velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam 
+                                                aliquam quaerat voluptatem. Utaenim ad minima veniam, quis nost ptatem sequi ne velit, sed quia non numquam eius modi
+                                                veniam, quis nost ptatem sequi ne velit, sed quia non numquam eius modi 
+                                                <strong></strong>
+                                  			 </p>
+                                               <span>Sam Jones</span>
+                                        </li>
+                                        <li>
+                                        	 <p>
+                                                Magni dolores eos qui ratione volu velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam 
+                                                aliquam quaerat voluptatem. Utaenim ad minima veniam, quis nost ptatem sequi ne velit, sed quia non numquam eius modi
+                                                veniam, quis nost ptatem sequi ne velit, sed quia non numquam eius modi 
+                                                <strong></strong>
+                                  			 </p>
+                                               <span>Sam Jones</span>
+                                        </li>
+                                        <li>
+                                        	 <p>
+                                                Magni dolores eos qui ratione volu velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam 
+                                                aliquam quaerat voluptatem. Utaenim ad minima veniam, quis nost ptatem sequi ne velit, sed quia non numquam eius modi
+                                                veniam, quis nost ptatem sequi ne velit, sed quia non numquam eius modi 
+                                                <strong></strong>
+                                  			 </p>
+                                               <span>Sam Jones</span>
+                                        </li>
+                                   </ul>
+                                 
+                                    <div class="clear"></div>
+                             </div>
+
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clone1">
+                        </div>
+                </div>
+            </div>
+            <!-- aincontent ends -->
+            
+            <!-- footer starts -->
+            <footer>
+            	<div class="container">
+                	<ul>
+                    	<li><small>MPL#39426</small></li>
+                        <li class="last"><a href="#"><img src="images/facebook_img.jpg" width="116" height="44" alt="facebook_img"></a></li>
+                    </ul>
+                    <p>Copyright 2015 <a href="#">Gibson Plumbing</a>. All rights Reserved Wordwide</p><br>
+					<div class="clear"></div>
+                </div>
+            </footer>
+            <!-- footer ends -->
+            
+    
+</div>
+<!-- wrapper ends -->
+
+<script>
+equalheight = function(container){
+
+var currentTallest = 0,
+     currentRowStart = 0,
+     rowDivs = new Array(),
+     $el,
+     topPosition = 0;
+ $(container).each(function() {
+
+   $el = $(this);
+   $($el).height('auto')
+   topPostion = $el.position().top;
+
+   if (currentRowStart != topPostion) {
+     for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+       rowDivs[currentDiv].height(currentTallest);
+     }
+     rowDivs.length = 0; // empty the array
+     currentRowStart = topPostion;
+     currentTallest = $el.height();
+     rowDivs.push($el);
+   } else {
+     rowDivs.push($el);
+     currentTallest = (currentTallest < $el.height()) ? ($el.height()) : (currentTallest);
+  }
+   for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+     rowDivs[currentDiv].height(currentTallest);
+   }
+ });
+}
+
+$(window).load(function() {
+  equalheight('.eq');
+});
+
+
+$(window).resize(function(){
+  equalheight('.eq');
+});
+</script>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+

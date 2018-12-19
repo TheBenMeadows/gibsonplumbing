@@ -1,0 +1,174 @@
+/* CSS Document */
+
+.builders
+
+	{
+
+		position:relative;
+
+		float:left;
+
+		text-align:center;
+
+		font-family:Arial, Helvetica, sans-serif;
+
+		font-style:italic;
+
+		font-size:13px;
+
+		font-weight:bold;
+
+		width:100%;
+
+	}
+
+.two_column
+
+	{
+
+		position:relative;
+
+		float:left;
+
+		width:775px;
+
+		background-color:#FFF;
+
+	}
+
+.two_column_left img
+
+	{
+
+		position:relative;
+
+		float:left;
+
+		width:375px;
+
+	}
+
+.two_column_right
+
+	{
+
+	position:relative;
+
+	float:left;
+
+	width:400px;
+
+	color: #000;
+
+	text-align: left;
+
+	}
+
+.img_holder img 
+
+	{
+
+		float: left;
+
+		width: 300px;
+
+		position: relative;
+
+	}
+
+.img_holder 
+
+	{
+
+		float: left;
+
+		width: 305px;
+
+		height:225px;
+
+		position: relative;
+
+	}
+
+.img_holder_als img 
+
+	{
+
+		float: left;
+
+		position: relative;
+
+	}
+
+.img_holder _als
+
+	{
+
+		float: left;
+
+		position: relative;
+
+	}
+
+.img_holder_right_als 
+
+	{
+
+		float:right;
+
+		position: relative;
+
+		width: 305px;
+
+		height:225px;
+
+	}
+
+.img_holder_right_als img 
+
+	{
+
+		float:right ;
+
+		width: 300px;
+
+		position: relative;
+
+	}
+
+.img_holder_right 
+
+	{
+
+		float: left;
+
+		position: relative;	
+
+	}
+
+.img_holder_right img 
+
+	{
+
+		float: left;
+
+		width: 300px;
+
+		position: relative;
+
+	}
+
+.column_spacer
+
+	{
+
+	position:relative;
+
+	float:left;
+
+	width:250px;
+
+	text-align:left;
+
+	}
+

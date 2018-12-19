@@ -1,0 +1,44 @@
+.sched_request
+
+	{
+
+		font-family:Arial, Helvetica, sans-serif;
+
+		font-weight:bold;
+
+		font-size:14px;
+
+		color: #B51133;
+
+	}
+
+.sched_request a 
+
+	{
+
+		font-family: Arial, Helvetica, sans-serif;
+
+		font-size:14px;
+
+		font-weight: bold;
+
+		color: #B51133;
+
+	}
+
+.sched_request a :hover {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size:14px;
+
+	font-style: normal;
+
+	line-height: normal;
+
+	font-weight: bold;
+
+	color: #000000;
+
+}
+

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_contact" value="name:id_number;datatype:int,name:name;datatype:string,name:ext;datatype:string,name:email;datatype:string,name:cell_phone;datatype:string,name:sort_order;datatype:string,name:date_added;datatype:datetime" />
+	<infoitem key="UD_builders" value="name:id_number;datatype:int,name:name_id;datatype:int,name:builder;datatype:string,name:date_added;datatype:datetime" />
+</info>

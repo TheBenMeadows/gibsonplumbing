@@ -1,0 +1,137 @@
+.contacttext1
+
+	{	
+
+		width:41%;
+
+		position:relative;
+
+		float:left;
+
+		text-align:left;
+
+	}
+
+.contacttext2
+
+	{
+
+		position:relative;
+
+		float:left;
+
+		text-align:right;
+
+		width:59%;
+
+		padding-bottom:10px;
+
+	}
+
+.contablecol1
+
+	{
+
+		position:relative;
+
+		float:left;
+
+		width:290px;
+
+/*	*/	
+
+		background-color:#FF0000;
+
+	}
+
+.contablecol2
+
+	{
+
+		position:relative;
+
+		float:left;
+
+		width:97px;
+
+/*	
+
+		background-color:#66FFFF;*/	
+
+	}
+
+.contablecol3
+
+	{
+
+		position:relative;
+
+		float:left;
+
+		width:265px;
+
+/*
+
+		background-color:#FFCC00;	*/	
+
+	}
+
+.contablecol4
+
+	{
+
+		position:relative;
+
+		float:left;
+
+		width:120px;
+
+/*	
+
+		background-color:#FF99CC;*/	
+
+	}
+
+.buildercontact
+
+	{
+
+		text-align:right;
+
+/*	
+
+		background-color:#6699FF;*/	
+
+	}
+
+.conoddrow
+
+	{
+
+		position:relative;
+
+		float:left;
+
+/*
+
+
+
+*/		
+
+	}
+
+	
+
+.conevenrow
+
+	{
+
+/*		position:relative;
+
+		float:left;
+
+		background-color:#CCCCCC;
+
+*/		
+
+	}

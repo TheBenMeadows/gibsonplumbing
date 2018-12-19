@@ -1,0 +1,150 @@
+/* CSS Document */
+
+			.wrapper
+
+				{
+
+					position:relative;
+
+					height:598px;
+
+					width:775px;
+
+				}
+
+			.main
+
+				{
+
+	position:relative;
+
+	top:0px;
+
+	margin:0px;
+
+	padding:0px;
+
+	border:0px;
+
+	left:0px;
+
+	background-image:url(../images/logo_b.gif);
+
+	background-repeat:no-repeat;
+
+	height:575px;
+
+	width:647px;
+
+/*					position:absolute;
+
+					z-index:20;*/
+
+			}
+
+
+
+			.nav
+
+				{
+
+	position:relative;
+
+	top:0px;
+
+	left:0px;
+
+	font-size:24px;
+
+	float: left;
+
+/*					postition:absolute;
+
+					z-index:10;*/
+
+				}/*
+
+.nav {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	line-height: normal;
+
+	font-weight: bold;
+
+	text-transform: uppercase;
+
+	color: #B51133;
+
+}
+
+	*/
+
+.left_spacer {
+
+	float: left;
+
+	height: auto;
+
+	width: 75px;
+
+	position: relative;
+
+	/*background-color:#66FFFF;*/
+
+}
+
+.top_space {
+
+	float: left;
+
+	height: 100px;
+
+	width: 775px;
+
+	position: relative;
+
+	/*background-color:#FFCC00;*/
+
+}
+
+a
+
+	{
+
+		font-family:Arial, Helvetica, sans-serif;
+
+		border:none;
+
+		text-decoration:none;
+
+	}
+
+a:link
+
+	{
+
+		color:#CC0000;
+
+	}
+
+a:visited
+
+	{
+
+		color:#CC0000;
+
+	}
+
+a:hover
+
+	{
+
+		color:#000000;
+
+	}
+

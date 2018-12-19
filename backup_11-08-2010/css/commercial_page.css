@@ -1,0 +1,150 @@
+.body_row
+
+	{
+
+	width:775px;
+
+	position: relative;
+
+	float: left;
+
+	}
+
+.image_holder
+
+	{
+
+	position:relative;
+
+	float:left;
+
+	width:387px;
+
+	height: 120px;
+
+	}
+
+.image_holder_wide
+
+	{
+
+		position:relative;
+
+		float:left;
+
+		width:775px;
+
+		height: 120px;
+
+	}
+
+.project_image_holder
+
+	{
+
+	position:relative;
+
+	float:left;
+
+	width:387px;
+
+	height:auto;
+
+	}
+
+
+
+.divider
+
+	{
+
+		width:775px;
+
+		height"5px;
+
+	}
+
+.image_divider
+
+	{
+
+		position:relative;
+
+		float:left;
+
+		width:1px;
+
+		height:189px;
+
+		background-color:#FF6600;
+
+	}
+
+.generic_divider
+
+	{
+
+		position:relative;
+
+		float:left;
+
+		width:1px;
+
+		height:inherit;
+
+		background-color:#FF6600;
+
+	}
+
+.caption
+
+	{
+
+		position:relative;
+
+		float:left;
+
+		width:387px;
+
+		color:#CC3300;
+
+		font-size:12px;
+
+	}
+
+.caption_divider
+
+	{
+
+		position:relative;
+
+		float:left;
+
+		width:1px;
+
+		height:12px;
+
+		background-color:#FF6600;
+
+	}
+
+.section_titles_left
+
+	{
+
+		position:relative;
+
+		float:left;
+
+	}
+
+.section_titles_right
+
+	{
+
+		position:relative;
+
+		float:right;
+
+	}
+
